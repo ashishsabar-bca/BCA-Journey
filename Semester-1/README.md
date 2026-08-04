@@ -21,6 +21,6 @@ This folder contains my notes, programs, assignments, and projects from Semester
 ## Goals
 - Learn programming language from scratch
 - Building mini projects
-- Upload notes regularly
+- Upload notes 
 - Practice coding daily
 - Complete assignments on time
