@@ -1,3 +1,3 @@
 #C Programming 
 
-This folder contains my notes, programs, assignments, and projects 
+This folder contains my notes, programs, assignments, and projects of C programming .
