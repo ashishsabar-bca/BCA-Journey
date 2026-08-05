@@ -9,3 +9,5 @@ int main()
  printf("Institute   : Rayagada autonomous college");
  return 0;
  }
+
+
