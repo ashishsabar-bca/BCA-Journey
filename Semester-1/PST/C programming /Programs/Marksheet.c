@@ -25,7 +25,7 @@ int main()
  sum = English + MilEnglish+Physics+Chemistry+Biology+Math;
  printf("Total marks                  :%d\n",sum);
  percentage = sum/6;
- printf("percentage                   :%f",percentage);
+ printf("percentage                   :%f\n",percentage);
  Average = sum/6;
  printf("Average mark                 :%f",Average);
  return 0;  
