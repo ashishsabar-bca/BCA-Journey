@@ -6,7 +6,8 @@ Totalmark & Average
 int main()
 { 
  char name[50];
- int English, MilEnglish,Physics,Chemistry,Biology,Math,Totalmarks = 0,Average = 0;
+ int English, MilEnglish,Physics,Chemistry,Biology,Math,sum = 0;
+ float Average, percentage = 0;
  printf("Name of the student          :");
  scanf("%s",name);
  printf("Enter the mark of English    :");
@@ -21,9 +22,11 @@ int main()
  scanf("%d",&Biology);
  printf("Enter the mark of Math       :");
  scanf("%d",&Math);
- Totalmarks = English + MilEnglish+Physics+Chemistry+Biology+Math;
- printf("Total marks                  :%d\n",Totalmarks);
- Average = Totalmarks/6;
+ sum = English + MilEnglish+Physics+Chemistry+Biology+Math;
+ printf("Total marks                  :%d\n",sum);
+ percentage = sum/6;
+ printf("percentage                   :%f",percentage);
+ Average = sum/6;
  printf("Average mark                 :%d",Average);
  return 0;  
 }
