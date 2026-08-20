@@ -27,6 +27,6 @@ int main()
  percentage = sum/6;
  printf("percentage                   :%f",percentage);
  Average = sum/6;
- printf("Average mark                 :%d",Average);
+ printf("Average mark                 :%f",Average);
  return 0;  
 }
